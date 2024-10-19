@@ -17,3 +17,16 @@ html {
 .header {
   background-color: #1F2937;
 }
+
+.header-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  margin-right: auto;
+}
