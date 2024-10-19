@@ -18,7 +18,8 @@ html {
 
 
 /* HEADER */
-.header {
+.header,
+.hero {
   background-color: #1f2937;
 }
 
@@ -38,10 +39,23 @@ html {
   font-weight: bold;
 }
 
-.header .link {
+.header .link,
+.hero .text {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
 }
 
 /* HERO */
+
+.hero .main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero .btn {
+  background-color: #3882f6;
+  text-decoration: none;
+  color: #f9faf8;
+}
