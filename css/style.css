@@ -15,7 +15,7 @@ html {
 }
 
 .header {
-  background-color: #1F2937;
+  background-color: #1f2937;
 }
 
 .header-wrapper {
@@ -24,9 +24,19 @@ html {
   height: 60px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 24px;
 }
 
 .logo {
   margin-right: auto;
+  font-size: 24px;
+  color: #f9fAf8;
+  font-weight: bold;
 }
+
+.header .link {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
