@@ -118,3 +118,16 @@ body {
 .info .text {
   text-align: center;
 }
+
+
+/* QUOTE */
+
+.quote .wrapper {
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote .author {
+  align-self: flex-end;
+}
