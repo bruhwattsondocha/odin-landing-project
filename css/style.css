@@ -122,12 +122,26 @@ body {
 
 /* QUOTE */
 
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
 .quote .wrapper {
-  padding: 120px;
+  margin: 120px;
   display: flex;
   flex-direction: column;
 }
 
+.quote .text {
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+  align-self: stretch;
+}
 .quote .author {
   align-self: flex-end;
+  font-weight: bold;
+  font-size: 24px;
 }
