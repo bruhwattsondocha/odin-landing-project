@@ -145,3 +145,39 @@ body {
   font-weight: bold;
   font-size: 24px;
 }
+
+
+/* CALL */
+.call {
+  padding: 120px;
+}
+.call .wrapper {
+  background-color: #3882f6;
+  width: 80%;
+  display: flex;
+  padding: 60px 120px;
+  border-radius: 6px;
+}
+
+.call .content {
+  flex: 1;
+  color: #fff;
+}
+
+.sign-up {
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 6px;
+  padding: 6px 28px;
+}
+
+
+.sign-up,
+.call .text {
+  font-weight: bold;
+}
+
+.call .text {
+  font-size: 24px;
+}
