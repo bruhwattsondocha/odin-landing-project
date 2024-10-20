@@ -90,11 +90,17 @@ body {
 
 /* INFO */
 
+.info .main {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
 
 .info .wrapper {
+  display: flex;
   flex-direction: column;
   padding: 60px;
-  gap: 60 px;
+  gap: 60px;
 }
 
 .info .content {
@@ -109,3 +115,6 @@ body {
   border: 4px solid #3882f6;
 }
 
+.info .text {
+  text-align: center;
+}
