@@ -86,3 +86,23 @@ body {
   font-weight: bold;
   border-radius: 6px;
 }
+
+
+/* INFO */
+
+
+.info .wrapper {
+  flex-direction: column;
+  padding: 60px;
+  gap: 60 px;
+}
+
+.info .content {
+  display: flex;
+  gap: 120px;
+} 
+
+.info img {
+  width: 150px;
+  height: auto;
+}
